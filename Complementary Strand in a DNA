@@ -28,3 +28,25 @@ int main() {
 	}
 	return 0;
 }
+Problem
+You are given the sequence of Nucleotides of one strand of DNA through a string SS of length NN. SS contains the character A, T, C,A,T,C, and GG only.
+
+Chef knows that:
+
+AA is complementary to TT.
+TT is complementary to AA.
+CC is complementary to GG.
+GG is complementary to CC.
+Using the string SS, determine the sequence of the complementary strand of the DNA.
+
+Input Format
+First line will contain TT, number of test cases. Then the test cases follow.
+First line of each test case contains an integer NN - denoting the length of string SS.
+Second line contains NN characters denoting the string SS.
+Output Format
+For each test case, output the string containing NN characters - sequence of nucleotides of the complementary strand.
+
+Constraints
+1 \leq T \leq 1001≤T≤100
+1 \leq N \leq 1001≤N≤100
+SS contains A, T, C, and G only
