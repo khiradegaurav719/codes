@@ -1,0 +1,39 @@
+Chef wants to gift CC chocolates to Botswal on his birthday. However, he has only XX chocolates with him.
+The cost of 11 chocolate is YY rupees.
+
+Find the minimum money in rupees Chef needs to spend so that he can gift CC chocolates to Botswal.
+
+Input Format
+First line will contain TT, number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, three integers C, X,C,X, and YY.
+Output Format
+For each test case, output in a single line answer, the minimum money in rupees Chef needs to spend.
+
+Constraints
+1 \leq T \leq 1001≤T≤100
+1 \leq C \leq 1001≤C≤100
+0 \leq X \leq C0≤X≤C
+1 \leq Y \leq 1001≤Y≤100
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int c,x,y;
+	    cin>>c>>x>>y;
+	    if(c>x){
+	        cout<<(c-x)*y<<endl;
+	    }
+	    else
+	    cout<<"0"<<endl;
+	}
+	return 0;
+}
