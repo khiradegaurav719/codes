@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b;
+	    cin>>a>>b;
+	    int x,y;
+	    x=a*100/10;
+	    y=b*100/20;
+	    if (x>y){
+	        cout<<"first"<<endl;
+	    }
+	    else if(x<y){
+	        cout<<"second"<<endl;
+	    }
+	    else
+	    cout<<"any"<<endl;
+	}
+	return 0;
+}
+
+Problem
+Devendra just had a million-dollar idea and he needs funds to startup. He was recently invited to Sasta Shark Tank (A TV show where entrepreneurs pitch their ideas to investors hoping to get investment in return).
+
+He was offered deals from two investors. The first investor offers AA dollars for 1010% of his company and the second investor offers BB dollars for 2020% of his company. Devendra will accept the offer from the investor whose valuation of the company is more. Determine which offer will Devendra accept or if both the offers are equally good.
+
+For example, if the first investor offers 300300 dollars for 1010% of the company, then the first investor's valuation of the company is 30003000 dollars since 1010% of 3000 = 3003000=300. If the second investor offers 500500 dollars for 2020% of the company, then the second investor's valuation of the company is 25002500 dollars since 2020% of 2500 = 5002500=500.
+
+Input Format
+The first line contains a single integer TT - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers AA and BB - the amount offered by first investor for 1010% of Devendra's company and the amount offered by second investor for 2020% of Devendra's company respectively.
+Output Format
+For each test case, Output FIRST if Devendra should accept the first investor's deal, output SECOND if he should accept the second investor's deal, otherwise output ANY if both deals are equally good.
+
+You may print each character of the strings in uppercase or lowercase (for example, the strings "FiRst", "First", "FIRST", and "FIrst" will all be treated as identical).
+
+Constraints
+1 \leq T \leq 1001≤T≤100
+100 \leq A,B \leq 10000100≤A,B≤10000
+AA and BB are multiples of 100100
