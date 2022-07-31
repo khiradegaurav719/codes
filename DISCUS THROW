@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,c;
+	    cin>>a>>b>>c;
+	    if(a>=b && a>=c){cout<<a<<endl;}
+	    else if(b>c){cout<<b<<endl;}
+	    else{cout<<c<<endl;}
+	}
+	return 0;
+}
+
+
+Problem
+In discus throw, a player is given 33 throws and the throw with the longest distance is regarded as their final score.
+
+You are given the distances for all 33 throws of a player. Determine the final score of the player.
+
+Input Format
+First line will contain TT, number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, three integers A, B,A,B, and CC denoting the distances in each throw.
+Output Format
+For each test case, output the final score of the player.
+
+Constraints
+1 \leq T \leq 1001≤T≤100
+1 \leq A,B,C \leq 1001≤A,B,C≤100
