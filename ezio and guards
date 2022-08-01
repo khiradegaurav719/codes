@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>=y){ 
+	        cout<<"yes"<<endl;
+	    }
+	    else 
+	    cout<<"no"<<endl;
+	    
+	}
+	return 0;
+}
+
+
+Problem
+Ezio can manipulate at most XX number of guards with the apple of eden.
+
+Given that there are YY number of guards, predict if he can safely manipulate all of them.
+
+Input Format
+First line will contain TT, number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, two integers XX and YY.
+Output Format
+For each test case, print \texttt{YES}YES if it is possible for Ezio to manipulate all the guards. Otherwise, print \texttt{NO}NO.
+
+You may print each character of the string in uppercase or lowercase
+(for example, the strings \texttt{YeS}YeS, \texttt{yEs}yEs, \texttt{yes}yes and \texttt{YES}YES will all be treated as identical).
+
+Constraints
+1 \leq T \leq 1001≤T≤100
+1 \leq X, Y \leq 1001≤X,Y≤100
